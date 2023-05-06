@@ -15,7 +15,7 @@ Four main entries are required:
 
 The OpenLANE flow takes these elements to finally generate a GDS. In a high abstraction perspective, OpenLANE allows to convert a `verilog` design into its manufacturable version.
 
-![RTL2GDS Image](https://github.com/saredabcar/tae_2023_ol/blob/main/docs/images/rtl2gds.png)
+![RTL2GDS Image](https://raw.githubusercontent.com/saredabcar/tae_2023_ol/main/docs/images/rtl2gds.png)
 
 ##Stages
 
@@ -48,6 +48,6 @@ OpenLane flow consists of several stages. By default all flow steps are run in s
     3. `Netgen` - Performs LVS Checks
     4. `CVC` - Performs Circuit Validity Checks
 
-![OpenLANE_flow_diagram](https://github.com/saredabcar/tae_2023_ol/blob/main/docs/images/openlane_flow_diagram.png)
+![OpenLANE_flow_diagram](https://raw.githubusercontent.com/saredabcar/tae_2023_ol/main/docs/images/openlane_flow_diagram.png)
 
 
