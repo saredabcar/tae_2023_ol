@@ -6,7 +6,7 @@
 
 OpenLANE uses Docker to create a reproducible environment for your projects. To access this environment execute the following:
 
-```sh 
+```yaml 
 cd $OPENLANE_ROOT
 make mount
 ```
@@ -17,13 +17,22 @@ The entry point for OpenLane is the `./flow.tcl` script. It is used to run the f
 
 In order to run the flow in automatic mode, you need to execute the following command:
 
-```sh
+```yaml
 ./flow.tcl -design <design_name>
 ```
+!!!example
+	For a design named `spm` the invocation would look something like this:
 
-For a design named `spm` the invocation would look something like this:
+	```yaml
+	./flow.tcl -design spm
+	```
 
-```sh
-./flow.tcl -design spm
+### 3. Exit from the Docker environment
+Once the flow has finished/failed, automatically you will be taken outof the OpenLANE environment and positioned at Docker container, being able to run another flow or simply go out to your system environment, again by typing: 
+
+```yaml
+exit
 ```
 
+!!!example
+	![Exiting docker](https://raw.githubusercontent.com/saredabcar/tae_2023_ol/main/assets/images/exit_docker_autom_flow.png)

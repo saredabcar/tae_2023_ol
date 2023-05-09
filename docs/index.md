@@ -7,11 +7,12 @@ OpenLANE is a suite that performs all ASIC implementation steps from RTL all the
 Currently, it supports both A and B variants of the sky130 PDK, the C variant of the gf180mcu PDK, and instructions to add support for other (including proprietary) PDKs are documented.
 
 Four main entries are required: 
-
+```yaml
     1. HDL design files		(.v)
     2. Constraints file 	(.sdc)
     3. Configuration file	(.json)
-    4. PDK 					(skywater)
+    4. PDK 					(sky130A)
+```
 
 The OpenLANE flow takes these elements to finally generate a GDS. In a high abstraction perspective, OpenLANE allows to convert a `verilog` design into its manufacturable version.
 
