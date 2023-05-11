@@ -94,6 +94,56 @@ echo "alias gds3d=\"/home/\$USER/eda_tools/GDS3D/linux/GDS3D -p /home/\$USER/eda
 source ~/.bashrc
 ```
 
+```yaml
+cd GDS3D/linux/
+```
+
+```yaml
+chmod +x ./GDS3D
+```
+
+#### Checking installation
+A simple way to check this tool has been succesfully installed and ready to be executed, run the following:
+
+```yaml
+gds3d
+```
+
+The expected output is:
+
+![testing_gds3d](https://raw.githubusercontent.com/saredabcar/tae_2023_ol/main/assets/images/testing_gds3d.png)
+
+!!!warning
+	If you are getting errors similar to these:
+	
+	![gds3d_error_1](https://raw.githubusercontent.com/saredabcar/tae_2023_ol/main/assets/images/gds3d_error_1.png)
+
+	![gds3d_error_2](https://raw.githubusercontent.com/saredabcar/tae_2023_ol/main/assets/images/gds3d_error_2.png)
+
+	Try to solve it running the following sequence of commands:
+
+	```yaml
+	sudo apt -y update && sudo apt -y upgrade
+	```
+	
+	```yaml
+	sudo apt autoremove -y
+	```
+	
+	```yaml
+	sudo apt install -y g++ libc6 libc6-i386 libx11-6:i386 libgl1-mesa-glx libgl1-mesa-dev libgl1-mesa-glx:i386 libglu1-mesa-devel libx11-dev
+	```
+
+	!!!success
+		Now, try again to execute `gds3d`. Everything should be OK now    :)
+
+	!!!failure
+		If the error you get is:
+	
+		![gds3d_error_3](https://raw.githubusercontent.com/saredabcar/tae_2023_ol/main/assets/images/gds_error_3.png)
+
+		There are more questions than answers...  :(
+
 #### Usage
 In order to use the GDS3D visualizer, you should have already defined the alias `gds3d` as explained in previous section.
 Thereafer you can invoke the tool ass follows:
