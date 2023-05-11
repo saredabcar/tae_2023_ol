@@ -38,7 +38,7 @@ package require openlane
 
 !!!example
 	
-	![init_interactive_des](https://raw.githubusercontent.com/saredabcar/tae_2023_ol/main/assets/images/init_interactive_des.png)
+	![init_interactive_des](https://raw.githubusercontent.com/saredabcar/tae_2023_ol/main/assets/images/init_interactive_design.png)
 	
 #### Interactive flow commands
 
