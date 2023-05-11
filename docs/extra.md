@@ -131,7 +131,7 @@ The expected output is:
 	```
 	
 	```yaml
-	sudo apt install -y g++ libc6 libc6-i386 libx11-6:i386 libgl1-mesa-glx libgl1-mesa-dev libgl1-mesa-glx:i386 libglu1-mesa-devel libx11-dev
+	sudo apt install -y g++ libc6 libc6-i386 libx11-6:i386 libgl1-mesa-glx libgl1-mesa-dev libgl1-mesa-glx:i386 libglu1-mesa-dev libx11-dev
 	```
 
 	!!!success
