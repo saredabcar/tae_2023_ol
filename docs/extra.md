@@ -140,7 +140,7 @@ The expected output is:
 	!!!failure
 		If the error you get is:
 	
-		![gds3d_error_3](https://raw.githubusercontent.com/saredabcar/tae_2023_ol/main/assets/images/gds_error_3.png)
+		![gds3d_error_3](https://raw.githubusercontent.com/saredabcar/tae_2023_ol/main/assets/images/gds3d_error_3.png)
 
 		There are more questions than answers...  :(
 
