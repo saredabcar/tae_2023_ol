@@ -42,14 +42,14 @@ source ~/.bashrc
 To use the tool execute the tool, run the next command followed by the desired option:
 
 ```yaml
-summary .py –-design <design_name> --<option1> --<option2>
+summary.py –-design <design_name> --<option1> --<option2>
 ```
 
 !!!info
 	Execute the following to get the options list.
 
 	```yaml
-	summary .py –h
+	summary.py –h
 	```
 !!!info
 	A "-1" means that a particular check was not run.
