@@ -95,7 +95,7 @@ OpenLANE allows you to return to a previous ‘on going’ flow in interactive m
 
 	![prep_interrupted](https://raw.githubusercontent.com/saredabcar/tae_2023_ol/main/assets/images/prep_interrupted.png)
 	
-	![exit_interrupted](https://raw.githubusercontent.com/saredabcar/tae_2023_ol/main/assets/images/prep_interrupted.png)
+	![exit_interrupted](https://raw.githubusercontent.com/saredabcar/tae_2023_ol/main/assets/images/exit_interrupted.png)
 
 	![ret_interrupted](https://raw.githubusercontent.com/saredabcar/tae_2023_ol/main/assets/images/ret_interrupted.png)
 
