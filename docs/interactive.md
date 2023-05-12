@@ -86,3 +86,16 @@ run_lvs
 run_antenna_check
 ```
 
+### 3. Interrupted flow
+
+OpenLANE allows you to return to a previous ‘on going’ flow in interactive mode.
+
+!!!example
+	Assuming you have run until _`placement`_ step, and after a while you want to continue that particular run, you must mount docker and execute `flow.tcl` script with the run name you previously assigned to it and continue executing the flow.
+
+	![prep_interrupted](https://raw.githubusercontent.com/saredabcar/tae_2023_ol/main/assets/images/prep_interrupted.png)
+	
+	![exit_interrupted](https://raw.githubusercontent.com/saredabcar/tae_2023_ol/main/assets/images/prep_interrupted.png)
+
+	![ret_interrupted](https://raw.githubusercontent.com/saredabcar/tae_2023_ol/main/assets/images/ret_interrupted.png)
+
