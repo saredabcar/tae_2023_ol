@@ -98,6 +98,20 @@ python3 --version; pip --version; docker run hello-world
 		make uninstall
 		```
 
-### 2. Running the flow
+### 2. Setting your design
+
+### 3. Running the flow
+	
+Execute the following
+
+```yaml 
+make user_proj_example
+```
+
+```yaml 
+make user_project_wrapper
+```
+
+	
 
 
